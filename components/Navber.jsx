@@ -21,7 +21,7 @@ const Navber = () => {
                 <li className='hover:text-[#f7a582]'><a href="">Pages</a></li>
                 <li className='hover:text-[#f7a582]'><a href="">Contact Us</a></li>
             </ul>
-            <button className='flex border-2 px-5 py-3 rounded-full text-[#f7a582] border-[#f7a582] gap-2 font-semibold items-center hover:text-[#1f3f37] hover:bg-[#f7a582] transition delay-75 duration-75 ease-in-out'>Make Appointment <FaCalendarAlt></FaCalendarAlt> </button>
+            <button className='flex border-2 px-5 py-3 rounded-full text-[#f7a582] text-lg border-[#f7a582] gap-2 font-semibold items-center hover:text-[#1f3f37] hover:bg-[#f7a582] transition delay-75 duration-75 ease-in-out'>Make Appointment <FaCalendarAlt></FaCalendarAlt> </button>
             </div>
             
             
