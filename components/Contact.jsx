@@ -1,21 +1,37 @@
-import { FaCalendarAlt } from "react-icons/fa";
 import Image from "next/image";
+import {FaArrowAltCircleRight } from "react-icons/fa";
 const Contact = () => {
     return (
-        <div className="bg-slate-100 grid grid-cols-1 gap-y-5 lg:grid-cols-3 px-3 lg:px-10 py-10 lg:py-20">
-            <div className="relative h-full bg-[#f7a582]">
-                <h1 className="font-semibold text-3xl p-10 mb-20 text-white"> Do not<span className="font-bold">Hesitate</span> To Contact us</h1>
-                <button className="absolute bottom-0 w-full flex gap-2 items-center hover:bg-[#15302d] justify-center bg-black py-5 font-semibold text-xl text-white">Make Appointment <FaCalendarAlt></FaCalendarAlt></button>
+        <div className="relative">
+            <Image  className='' src="/home-contact-us-bg.png" alt="doctor" width="1400" height="1400" />
+            <div className="bg-gradient-to-r from-black to-slate-900 opacity-60 absolute top-0 left-0 w-full h-full">
             </div>
-            <div className="p-10 space-y-3 bg-[#07332f] border-r border-white">
-            <Image className='' src="/doctor.ico" alt="doctor" width="50" height="50" />
-            <h1 className="text-3xl font-semibold text-white">Need Family Health</h1>
-            <p className="font-semibold text-gray-400 text-lg">we understand the importance of family health overall well-being.</p>
-            </div>
-            <div className="p-10 space-y-3 bg-[#07332f]">
-            <Image className='' src="/customer-service.ico" alt="customer" width="50" height="50" />
-            <h1 className="text-3xl font-semibold text-white">24 Hours Service</h1>
-            <p className="font-semibold text-gray-400 text-lg">we take pride in offering 24-hour medical services to ensure that you.</p>
+            <div className="absolute top-0 w-full h-full">
+                <div className="text-white space-y-2 py-10 text-5xl mt-2  text-center">
+                <h4 className="text-xl ">FILL THE FORM</h4>
+                <h1 className="text-5xl">Contact Form.</h1>
+                </div>
+                <div className="flex px-10">
+                    <div className="w-[550px] space-y-5 p-14 bg-[#f7a582]">
+                    <Image  className='' src="/contact-us-img.png" alt="doctor" width="250" height="300" />
+                    <h1 className="font-semibold text-3xl text-white">Make <span className="font-bold text-4xl">Appointment</span> & Take Care Of Your Healthy Life</h1>
+                    </div>
+                    <div className="w-full py-14 px-28 bg-[#07332f]">
+                        <form className="space-y-7" action="">
+                            <div className="w-full flex gap-10">
+                            <input placeholder="Name" className="border py-3 rounded-md px-3 w-full text-white bg-[#07332f] border-white" type="text" />
+                            <input placeholder="Email" className="border py-3 rounded-md px-3 w-full text-white bg-[#07332f] border-white" type="email" />
+                            </div>
+                            <div className="w-full flex gap-10">
+                            <input placeholder="Your Phone" className="border py-3 rounded-md px-3 w-full text-white bg-[#07332f] border-white" type="text" />
+                            <input type='date' placeholder="Date" className="border py-3 rounded-md px-3 w-full text-white bg-[#07332f] border-white" />
+                            </div>
+                            <textarea placeholder="Your Message" className="border h-28 py-3 rounded-md px-3 w-full text-white bg-[#07332f] border-white" name="" id=""></textarea>
+                            <button className="px-10 py-3 font-bold text-lg text-white border-2 border-white rounded-full hover:border-[#f7a582] hover:bg-[#f7a582] hover:text-[#0e1d1c] flex gap-2 items-center" type="submit">Send <FaArrowAltCircleRight></FaArrowAltCircleRight></button>
+                            
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     );

@@ -3,9 +3,9 @@ import { FaPlus } from "react-icons/fa";
 
 const Faqs = () => {
     return (
-        <div className="bg-slate-100 px-3 lg:flex gap-10 lg:px-10 pt-10 pb-20">
+        <div className="bg-slate-100 px-3 lg:flex gap-10 lg:px-10 pt-10 pb-40">
             <div className="relative">
-            <Image className='mx-auto' src="/home-faq.png" alt="hero-2" width="650" height="600" />
+            <Image className='mx-auto' src="/home-faq.png" alt="hero-2" width="700" height="700" />
             <div className="flex absolute -bottom-14 right-0">
                 <div className="bg-[#1f3f37] p-3 lg:p-8 text-center  space-y-2 text-white">
                     <h1 className="font-bold text-3xl lg:text-5xl">100 +</h1>
