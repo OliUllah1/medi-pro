@@ -16,13 +16,13 @@ const Banner = () => {
                 </div>
             </div>
             <div className='w-full order-1 lg:order-2 relative'>
-                <Image className='absolute top-0 opacity-5 left-16 flex z-0' src="/home-hero-bg.png" alt="hero-bg" width="200" height="200" />
+                <Image className='absolute top-0 left-16 flex z-0' src="/home-hero-bg.png" alt="hero-bg" width="300" height="300" />
                 
-            <div className='flex z-50 gap-5'>
-                <div className='pt-20'>
+            <div className='flex gap-5'>
+                <div className='pt-20 z-20'>
                 <Image className='rounded-full' src="/home-hero2.jpg" alt="hero-2" width="250" height="400" />
                 </div>
-                <div>
+                <div className=' z-30'>
                 <Image className='rounded-full' src="/home-hero1.jpg" alt="hero-1" width="250" height="400" />
                 </div>
                 
