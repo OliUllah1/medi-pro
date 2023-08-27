@@ -1,4 +1,4 @@
-import { Banner } from '../../components'
+import { About, Banner } from '../../components'
 import Contact from '../../components/Contact'
 
 export default function Home() {
@@ -6,6 +6,7 @@ export default function Home() {
     <main>
       <Banner></Banner>
       <Contact></Contact>
+      <About></About>
     </main>
   )
 }
