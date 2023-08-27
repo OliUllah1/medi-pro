@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div className="bg-slate-100 lg:flex gap-10 items-center lg:px-10 px-3 lg:py-10 pt-20 pb-10">
             <div className="w-full mb-10 lg:mb-0 relative flex gap-5 items-end">
-            <Image  className='absolute bottom-20 left-20 z-10' src="/home-about-us-bg2.png" alt="hero-2" width="380" height="500" />
+            <Image  className='absolute bottom-20 left-0 lg:left-20 z-10' src="/home-about-us-bg2.png" alt="hero-2" width="380" height="500" />
             <Image className='rounded-full z-20' src="/home-about1.jpg" alt="hero-2" width="250" height="400" />
             <div className="space-y-4 z-30">
             <Image className='rounded-full' src="/home-hero1.jpg" alt="hero-1" width="250" height="400" />
