@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
             <div className="space-y-8">
                 <h4 className="text-[#f7a582] text-2xl">Contact Details</h4>
-                <ul className="text-white space-y-3">
+                <ul className="text-white space-y-5">
                     <li className=""><a href="" className="flex gap-2 items-center"><FaMapMarkerAlt className="text-[#f7a582] text-xl"></FaMapMarkerAlt> Dhaka,Bangladesh</a></li>
                     <li><a href="" className="flex gap-2 items-center"><FaEnvelopeOpenText className="text-[#f7a582] text-xl"></FaEnvelopeOpenText> healthcare@gmail.com</a></li>
                     <li><a href="" className="flex gap-2 items-center"><FaPhoneAlt className="text-[#f7a582] text-xl"></FaPhoneAlt> 134564874656</a></li>
@@ -48,7 +48,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <p className="text-center font-semibold text-xl text-white">Copyright 2023 &#169; <span className="text-[#f7a582] font-bold">MediPro</span> All Right Reserved.</p>
+        <p className="text-center font-semibold text-xl text-white">Copyright 2023 &#169; <span className="text-[#f7a582] font-bold cursor-pointer">MediPro</span> All Right Reserved.</p>
         </div>
     );
 };

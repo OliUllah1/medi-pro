@@ -3,7 +3,7 @@ import { FaArrowAltCircleRight ,FaPlayCircle } from "react-icons/fa";
 
 const Banner = () => {
     return (
-        <div className='bg-[#0e1d1c] relative'>
+        <div className='bg-[#07332f] relative'>
             <Image className='absolute bottom-0 right-10' src="/half-circle-1.png" alt="hero-bg" width="300" height="300" />
             <div className='lg:flex gap-5 px-3 py-10 lg:px-10'>
             <div className='w-full order-2 lg:order-1 mb-10 lg:mb-0 lg:px-10'>

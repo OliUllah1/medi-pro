@@ -8,12 +8,12 @@ const Facility = () => {
                 <button className="absolute bottom-0 w-full flex gap-2 items-center hover:bg-[#15302d] justify-center bg-black py-5 font-semibold text-xl text-white">Make Appointment <FaCalendarAlt></FaCalendarAlt></button>
             </div>
             <div className="p-10 space-y-3 bg-[#07332f] border-r border-white">
-            <Image className='' src="/doctor.ico" alt="doctor" width="50" height="50" />
+            <Image className='' src="/doctor.png" alt="doctor" width="50" height="50" />
             <h1 className="text-3xl font-semibold text-white">Need Family Health</h1>
             <p className="font-semibold text-gray-400 text-lg">we understand the importance of family health overall well-being.</p>
             </div>
             <div className="p-10 space-y-3 bg-[#07332f]">
-            <Image className='' src="/customer-service.ico" alt="customer" width="50" height="50" />
+            <Image className='' src="/customer-service.png" alt="customer" width="50" height="50" />
             <h1 className="text-3xl font-semibold text-white">24 Hours Service</h1>
             <p className="font-semibold text-gray-400 text-lg">we take pride in offering 24-hour medical services to ensure that you.</p>
             </div>
