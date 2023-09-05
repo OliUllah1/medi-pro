@@ -20,7 +20,8 @@ export default function Home() {
       <Faqs></Faqs>
       <Testimonial></Testimonial>
       <Blog></Blog>
-      <Contact></Contact>
+      <Contact>
+      </Contact>
     </main>
   )
 }

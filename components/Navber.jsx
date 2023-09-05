@@ -1,8 +1,11 @@
-import React from 'react';
+'use client'
 import Image from 'next/image';
+import Link from 'next/link';
 import { FaCalendarAlt,FaBars } from "react-icons/fa";
+import { useRouter } from 'next/navigation'
 
 const Navber = () => {
+    const router = useRouter()
     return (
         <div className='bg-[#1f3f37] lg:bg-[#07332f] flex px-3 items-center lg:px-10 py-5 lg:py-3 justify-between'>
            
@@ -15,13 +18,13 @@ const Navber = () => {
            </div>
             <div className='hidden lg:flex  items-center gap-10'>
             <ul className='flex items-center gap-10 text-lg font-semibold text-white'>
-                <li className='text-[#f7a582]'><a href="">Home</a></li>
-                <li className='hover:text-[#f7a582]'><a href="">About Us</a></li>
-                <li className='hover:text-[#f7a582]'><a href=""></a>Services</li>
-                <li className='hover:text-[#f7a582]'><a href="">Pages</a></li>
-                <li className='hover:text-[#f7a582]'><a href="">Contact Us</a></li>
+                <li className='text-[#f7a582]'><Link href="/">Home</Link></li>
+                <li className='hover:text-[#f7a582]'><Link href="/about">About Us</Link></li>
+                <li className='hover:text-[#f7a582]'><Link href=""></Link>Services</li>
+                <li className='hover:text-[#f7a582]'><Link href="">Pages</Link></li>
+                <li className='hover:text-[#f7a582]'><Link href="">Contact Us</Link></li>
             </ul>
-            <button className='flex border-2 px-5 py-3 rounded-full text-[#f7a582] text-lg border-[#f7a582] gap-2 font-semibold items-center hover:text-[#1f3f37] hover:bg-[#f7a582] transition delay-75 duration-75 ease-in-out'>Make Appointment <FaCalendarAlt></FaCalendarAlt> </button>
+            <button className='flex border-2 px-5 py-3 rounded-full text-[#f7a582] text-lg border-[#f7a582] gap-2 font-semibold items-center hover:text-[#1f3f37] hover:bg-[#f7a582] transition delay-75 duration-75 ease-in-out' onClick={() => router.push('/appointment')} >Make Appointment <FaCalendarAlt></FaCalendarAlt> </button>
             </div>
             
             

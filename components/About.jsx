@@ -1,10 +1,17 @@
+"use client"
 import Image from "next/image";
 import { FaPlayCircle,FaCheckCircle,FaArrowAltCircleRight } from "react-icons/fa";
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+import Aos from 'aos';
 
 const About = () => {
+    useEffect(()=>{
+        Aos.init({duration:1000})
+    },[])
     return (
         <div className="bg-slate-100 lg:flex gap-10 items-center lg:px-10 px-3 lg:py-10 pt-20 pb-10">
-            <div className="w-full mb-10 lg:mb-0 relative flex gap-5 items-end">
+            <div data-aos="fade-right" className="w-full mb-10 lg:mb-0 relative flex gap-5 items-end">
             <Image  className='absolute bottom-20 left-0 lg:left-20 z-10' src="/home-about-us-bg2.png" alt="hero-2" width="380" height="500" />
             <Image className='rounded-full z-20' src="/home-about1.jpg" alt="hero-2" width="250" height="400" />
             <div className="space-y-4 z-30">
@@ -17,7 +24,7 @@ const About = () => {
             </div>
             </div> 
             </div>
-            <div className="w-full space-y-5">
+            <div data-aos="fade-left" className="w-full space-y-5">
                 <h4 className="text-[#f7a582] font-semibold text-xl">ABOUT MEDICALIFE</h4>
                 <h1 className="text-4xl lg:text-6xl text-[#07332f] lg:pr-10">Our Best Services & Poplular Treatment Here.</h1>
                 <p className="text-xl text-gray-500 lg:pr-20">we take pride in offering a wide range of best-in-class medical services and popular treatments to cater to your diverse healthcare needs .</p>
