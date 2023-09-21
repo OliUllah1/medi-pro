@@ -17,7 +17,7 @@ const Navber = () => {
            <button className='border-2 w-14 h-14 flex items-center justify-center border-[#f7a582] p-3 rounded-full'><FaBars className='text-5xl text-[#f7a582] '></FaBars></button>
            </div>
             <div className='hidden lg:flex  items-center gap-10'>
-            <ul className='flex items-center gap-10 text-lg font-semibold text-white'>
+            <ul className='flex items-center gap-10 text-xl text-white'>
                 <li className='text-[#f7a582]'><Link href="/">Home</Link></li>
                 <li className='hover:text-[#f7a582]'><Link href="/about">About Us</Link></li>
                 <li className='hover:text-[#f7a582]'><Link href="/services">Services</Link></li>

@@ -6,7 +6,7 @@ const Doctors = () => {
         <div className="px-2 lg:px-10 py-20">
             <h5 className="text-[#f7a582] font-semibold">OUR BEST DOCTORS</h5>
             <h1 className="text-[#07332f] text-5xl font-semibold mb-10">Meet Our <br className="hidden lg:block" /> Doctors.</h1>
-            <div className="grid grid-cols-1 lg:grid-cols-3">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
                 <div className="">
                 <Image className='' src="/doctors-team1.png" alt="hero-bg" width="400" height="300" />
                 <p className="text-[#f7a582] my-2">Family Physician</p>

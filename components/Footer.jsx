@@ -3,7 +3,7 @@ import { FaFacebookF,FaInstagram,FaLinkedinIn,FaYoutube,FaTwitter,FaClock,FaEnve
 
 const Footer = () => {
     return (
-        <div className="bg-[#07332f] space-y-5  px-3 lg:px-10 py-20">
+        <div className="bg-[#07332f] space-y-7  px-3 lg:px-10 py-20">
             <div className='space-y-10 lg:space-y-0 lg:flex justify-between gap-10'>
             <div className="space-y-5">
             <Image className='' src="/logo.png" alt="logo" width="150" height="150" />
@@ -48,7 +48,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <p className="text-center font-semibold text-xl text-white">Copyright 2023 &#169; <span className="text-[#f7a582] font-bold cursor-pointer">MediPro</span> All Right Reserved.</p>
+        <p className="text-center font-medium text-lg text-white">Copyright 2023 &#169; <span className="text-[#f7a582] font-bold cursor-pointer">MediPro</span> All Right Reserved.</p>
         </div>
     );
 };

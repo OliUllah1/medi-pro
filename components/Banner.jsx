@@ -10,9 +10,10 @@ const Banner = () => {
         Aos.init({duration:500})
     },[])
     return (
-        <div className='bg-[#07332f] relative'>
+        <div className='bg-[#07332f] relative py-10'>
             <Image className='absolute bottom-0 right-10' src="/half-circle-1.png" alt="hero-bg" width="300" height="300" />
-            <div className='lg:flex gap-5 px-3 py-10 lg:px-10'>
+            <Image className='absolute bottom-0 left-10' src="/half-shape.png" alt="hero-bg" width="250" height="250" />
+            <div className='lg:flex gap-5 px-3 py-20 lg:px-10'>
             <div className='w-full order-2 lg:order-1 mb-10 lg:mb-0 lg:px-10' data-aos="fade-right">
                 <h4 className='text-2xl font-semibold text-white mb-5'>WE TACK CARE OF YOUR HEALTH</h4>
                 <h1 className='text-6xl text-[#f7a582]  font-semibold'>We Are Providing Best & Affordable Health Care.</h1>
