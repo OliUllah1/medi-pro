@@ -3,6 +3,7 @@ import TitleBanner from '../../../components/TitleBanner';
 import AboutUs from '../../../components/About/AboutUs';
 import AboutQuality from '../../../components/About/AboutQuality';
 import AboutServices from '../../../components/About/AboutServices';
+import FamilyServices from '../../../components/About/FamilyServices';
 
 
 const AboutPage = () => {
@@ -12,6 +13,7 @@ const AboutPage = () => {
             <AboutUs></AboutUs>
             <AboutQuality></AboutQuality>
             <AboutServices></AboutServices>
+            <FamilyServices></FamilyServices>
         </div>
     );
 };

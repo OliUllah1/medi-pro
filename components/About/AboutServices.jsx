@@ -3,7 +3,7 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 const AboutServices = () => {
     return (
-        <div className="px-3 lg:px-10 py-20">
+        <div className="px-3 lg:px-20 py-20 bg-[#fff7f4]">
             <h5 className="text-xl text-[#f7a582] tracking-[3px]">TOP SERVICES</h5>
             <h1 className='text-[#07332f] text-5xl leading-[55px] font-medium mt-3 mb-8'>We Are a Pogressive <br className="hidden lg:block" /> Medical Clinic.</h1>
 
