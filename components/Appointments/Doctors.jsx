@@ -3,7 +3,7 @@ import { FaFacebookF,FaLinkedinIn,FaTwitter,FaInstagram } from "react-icons/fa";
 
 const Doctors = () => {
     return (
-        <div className="px-2 lg:px-10 py-20">
+        <div className="px-2 lg:px-20 py-20">
             <h5 className="text-[#f7a582] font-semibold">OUR BEST DOCTORS</h5>
             <h1 className="text-[#07332f] text-5xl mb-10">Meet Our Doctors.</h1>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
@@ -33,7 +33,7 @@ const Doctors = () => {
                 </div>
                 <div className="">
                 <Image className='' src="/doctors-team3.png" alt="hero-bg" width="400" height="300" />
-                <p className="text-[#f7a582] my-2">Psychiatrist</p>
+                <p className="text-[#f1e5e0] my-2">Psychiatrist</p>
                 <h3 className="text-[#07332f] text-2xl font-semibold">Dr. Jennifer White</h3>
                 <p className="text-gray-500 font-semibold text-lg ">Mental wellness advocate and guiding.</p>
                 <div className="flex mt-5 items-center gap-5 text-xl text-[#f7a582]">
