@@ -26,7 +26,7 @@ const TopServices = () => {
         }
     ]
     return (
-        <div className="px-3 lg:px-20 py-20 space-y-10">
+        <div className="px-3 lg:px-20 lg:py-20 py-10 space-y-10">
             <div className="lg:flex items-center gap-20">
             <div className="w-full">
             <p className="text-[#f7a582] tracking-[2px] text-xl">TOP SERVICES</p>

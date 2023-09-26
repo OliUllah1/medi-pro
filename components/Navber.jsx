@@ -17,12 +17,11 @@ const Navber = () => {
            <button className='border-2 w-14 h-14 flex items-center justify-center border-[#f7a582] p-3 rounded-full'><FaBars className='text-5xl text-[#f7a582] '></FaBars></button>
            </div>
             <div className='hidden lg:flex  items-center gap-10'>
-            <ul className='flex items-center gap-10 text-xl text-white'>
+            <ul className='flex items-center font-light gap-10 text-xl text-white'>
                 <li className='text-[#f7a582]'><Link href="/">Home</Link></li>
                 <li className='hover:text-[#f7a582]'><Link href="/about">About Us</Link></li>
                 <li className='hover:text-[#f7a582]'><Link href="/services">Services</Link></li>
-                
-                <li className='hover:text-[#f7a582]'><Link href="">Pages</Link></li>
+                <li className='hover:text-[#f7a582]'><Link href="/doctors">Our Doctors</Link></li>
                 <li className='hover:text-[#f7a582]'><Link href="/contact">Contact Us</Link></li>
             </ul>
             <button className='flex border-2 px-5 py-3 rounded-full text-[#f7a582] text-lg border-[#f7a582] gap-2 font-semibold items-center hover:text-[#1f3f37] hover:bg-[#f7a582] transition delay-75 duration-75 ease-in-out' onClick={() => router.push('/appointment')} >Make Appointment <FaCalendarAlt></FaCalendarAlt> </button>

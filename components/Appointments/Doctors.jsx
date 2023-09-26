@@ -3,8 +3,8 @@ import { FaFacebookF,FaLinkedinIn,FaTwitter,FaInstagram } from "react-icons/fa";
 
 const Doctors = () => {
     return (
-        <div className="px-2 lg:px-20 py-20">
-            <h5 className="text-[#f7a582] font-semibold">OUR BEST DOCTORS</h5>
+        <div className="px-2 lg:px-20 lg:py-20 py-10">
+            <h5 className="text-[#f7a582] tracking-[2px] text-xl">OUR BEST DOCTORS</h5>
             <h1 className="text-[#07332f] text-5xl mb-10">Meet Our Doctors.</h1>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
                 <div className="">

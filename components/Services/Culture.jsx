@@ -12,7 +12,7 @@ import img10 from '../../public/services/our-cultuer-gallery10.jpg'
 
 const Culture = () => {
     return (
-        <div className="py-20 space-y-10">
+        <div className="lg:py-20 py-10 space-y-10">
             <div className="lg:flex items-center gap-20 px-3 lg:px-20">
             <div className="w-full">
             <p className="text-[#f7a582] tracking-[2px] text-xl">OUR CULTURE</p>

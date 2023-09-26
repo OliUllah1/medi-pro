@@ -47,7 +47,7 @@ const OurServices = () => {
         }
     ]
     return (
-        <div className="px-3 lg:px-20 py-20">
+        <div className="px-3 lg:px-20 py-10 lg:py-20">
             <div className="text-center">
             <p className="text-[#f7a582] tracking-[2px] text-xl">OUR SERVICES</p>
             <h1 className="text-4xl lg:text-5xl mt-3 mb-7 lg:leading-[55px] font-semibold text-[#07332f] tracking-[1px]">Providing Medical Care For TheSickest <br className="hidden lg:block" /> In Our Community.</h1>
